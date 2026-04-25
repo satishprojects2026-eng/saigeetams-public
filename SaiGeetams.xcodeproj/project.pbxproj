@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030AE6C3C07FFA6D46ABA17A /* sa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1E6FA5E0CCB4462BFF5FF7B /* sa.mp3 */; };
+		04C5716B98B06451C552A38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7493C34678856E397E4AB6 /* Assets.xcassets */; };
+		06E116855802DC9C5BA9097D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940C56DF4A74E5FF5035AA1 /* SplashView.swift */; };
+		06EE996EB32508E5FF6F4D8C /* StudentRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BFEC4D1836D9BADD8526A3 /* StudentRegisterView.swift */; };
+		072A2990A97D2B43FD159430 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCCC2BDD1C4806471FB41FD /* AuthStore.swift */; };
+		0CA546E17D68FF26E72EBE99 /* BadgeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D3F855114F95D5B3A87EE9 /* BadgeEngine.swift */; };
+		0FE9C4663E74D2ACD659991D /* ParentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0A352B39A288EDB5983CC /* ParentViews.swift */; };
+		1A540FE5D58C3B2B1C235A99 /* TeacherDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EE49C1EF1CC8EBA8D668EF /* TeacherDashboardView.swift */; };
+		214F66AA554B740490DE2B0A /* SupabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6729FE44DD7E93393D87 /* SupabaseConfig.swift */; };
+		2777A5356579E1A7C2D64AA4 /* re.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45714545E7848304941CEF2A /* re.mp3 */; };
+		3251B942B28CAE0DF57A0874 /* OTPVerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BD8D9685308EE4EE60DB8 /* OTPVerifyView.swift */; };
+		40A32FE038EE6B4C25EFCA6E /* TeacherRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5032E6DCAC998B1D8D045 /* TeacherRegisterView.swift */; };
+		4C6AF93A5801034C17681F2E /* UIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877370BB165E46E8AED0A2A /* UIStore.swift */; };
+		5146ABC25CE4D005F7A93971 /* ga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09C084704EE0A25B7C07C534 /* ga.mp3 */; };
+		5858966AB2F9044C11590306 /* AppUpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8837B339F5C2208A88348D /* AppUpdateService.swift */; };
+		5CC2501E702C25C2B23C6832 /* ni.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D21CB790F19A0C972CF4E56 /* ni.mp3 */; };
+		61A5517AC5FE9ABB6053C8CA /* TeacherCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D9787CEAF5101B3BEA666A /* TeacherCalendarView.swift */; };
+		6C2B35C5758AF3620FDF2D80 /* ma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3918FEB5EBE0F1CD20A7F2AB /* ma.mp3 */; };
+		6D81B627A67BD850A0461A3B /* TeacherSessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10B67C2C0B2D6F159CA47D3 /* TeacherSessionDetailView.swift */; };
+		6F1E993D77142F7690A9DF5B /* CalendarSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB896A30C0A6F41436AC6C31 /* CalendarSyncService.swift */; };
+		842A52854290FDD0B02AACB5 /* ClassStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3493F817045BE88FB5F229 /* ClassStore.swift */; };
+		8CE39469A4B5647307AEE8E9 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A1E5C7FBA4369F98F0E645 /* AppSettings.swift */; };
+		8EE5F9895EBE3CF5BEC9607A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F836E4AD0A80C08CEF941396 /* ContentView.swift */; };
+		95B4EA39B42E6F89D53F2FF2 /* dha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F90BB4BC45D01103309D0220 /* dha.mp3 */; };
+		98E349F255BDE6116379D06D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C27279EBB009085550F37855 /* PrivacyInfo.xcprivacy */; };
+		99BC245A12FE479ADC4FD55E /* TeacherLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD42B867C0C5B0A4DD3C463 /* TeacherLoginView.swift */; };
+		A0CFAE06EB7A6614ED729388 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A70564B0EE06E49F813F7D /* SharedComponents.swift */; };
+		A48C16C178A60E337BEC84E8 /* StudentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB0AB200884FE558BA19710 /* StudentLoginView.swift */; };
+		A6506CF39646CD85E06A7E99 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D619C6570A16784CA97FD /* NotificationService.swift */; };
+		A833B894F449D06EA853AEC6 /* SaiGeetamsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701883B71358EB9B8FC1D9F4 /* SaiGeetamsApp.swift */; };
+		ADC0BF92B04A05A510BD737E /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70353F7FDFEF6B5CFCA0AD04 /* SupabaseService.swift */; };
+		B19098DC6FB1FADD2C0279D8 /* OfflineCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48388498A069BBA22E0688C3 /* OfflineCacheService.swift */; };
+		B450622089D9A4BA41BDEDF4 /* ParentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A157D2F634E84511D2D01A /* ParentLoginView.swift */; };
+		BCC6DC307EA0DEAD1BB78C77 /* RoleSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579D1A1F0859B5A81E04487 /* RoleSelectView.swift */; };
+		D0F13A67A282D2759BE5EDE3 /* StudentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E82FC0D9AAFCAFBAC95CC /* StudentViews.swift */; };
+		D2D2BB827B975F52EFB82017 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297073E49428E058AE08BA4 /* OnboardingView.swift */; };
+		DD248A8B190AD976D4E7F4D9 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3BA5E2FA7798ABDA8A168 /* SoundService.swift */; };
+		E1DD7841C66948CF7C662BA6 /* pa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9AF65F4F5DCB60F5E384B6E0 /* pa.mp3 */; };
+		F113DDEDB57BA9D06CBF9813 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2A8C7C6277739C4557D3AA05 /* Supabase */; };
+		F14079753B027DC95EA40979 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D541D6B949C4B7FBE54CB /* Models.swift */; };
+		FC7E34C07621734A509E99FD /* TeacherOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6E05F8112C8605E65F593 /* TeacherOtherViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C6E05F8112C8605E65F593 /* TeacherOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherOtherViews.swift; sourceTree = "<group>"; };
+		09C084704EE0A25B7C07C534 /* ga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ga.mp3; sourceTree = "<group>"; };
+		0A4BD8D9685308EE4EE60DB8 /* OTPVerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerifyView.swift; sourceTree = "<group>"; };
+		1940C56DF4A74E5FF5035AA1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		19A157D2F634E84511D2D01A /* ParentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentLoginView.swift; sourceTree = "<group>"; };
+		1D21CB790F19A0C972CF4E56 /* ni.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ni.mp3; sourceTree = "<group>"; };
+		22A1E5C7FBA4369F98F0E645 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		2877370BB165E46E8AED0A2A /* UIStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStore.swift; sourceTree = "<group>"; };
+		2FCCC2BDD1C4806471FB41FD /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		371E82FC0D9AAFCAFBAC95CC /* StudentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViews.swift; sourceTree = "<group>"; };
+		38A70564B0EE06E49F813F7D /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		3918FEB5EBE0F1CD20A7F2AB /* ma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ma.mp3; sourceTree = "<group>"; };
+		3F0DCD57DE7509A1B18A5473 /* SaiGeetams.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SaiGeetams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45714545E7848304941CEF2A /* re.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = re.mp3; sourceTree = "<group>"; };
+		48388498A069BBA22E0688C3 /* OfflineCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineCacheService.swift; sourceTree = "<group>"; };
+		4A2C6729FE44DD7E93393D87 /* SupabaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseConfig.swift; sourceTree = "<group>"; };
+		4AB0AB200884FE558BA19710 /* StudentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginView.swift; sourceTree = "<group>"; };
+		5BB5032E6DCAC998B1D8D045 /* TeacherRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherRegisterView.swift; sourceTree = "<group>"; };
+		6B7493C34678856E397E4AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		701883B71358EB9B8FC1D9F4 /* SaiGeetamsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiGeetamsApp.swift; sourceTree = "<group>"; };
+		70353F7FDFEF6B5CFCA0AD04 /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		73BFEC4D1836D9BADD8526A3 /* StudentRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRegisterView.swift; sourceTree = "<group>"; };
+		8297073E49428E058AE08BA4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		88D9787CEAF5101B3BEA666A /* TeacherCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCalendarView.swift; sourceTree = "<group>"; };
+		908DB25E06A1A63A029507C6 /* SaiGeetams.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SaiGeetams.entitlements; sourceTree = "<group>"; };
+		9AF65F4F5DCB60F5E384B6E0 /* pa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pa.mp3; sourceTree = "<group>"; };
+		9B2D619C6570A16784CA97FD /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A61D4BA811B88FFF8C8697F8 /* supabase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = supabase; sourceTree = SOURCE_ROOT; };
+		A6EE49C1EF1CC8EBA8D668EF /* TeacherDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDashboardView.swift; sourceTree = "<group>"; };
+		AB896A30C0A6F41436AC6C31 /* CalendarSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSyncService.swift; sourceTree = "<group>"; };
+		C10B67C2C0B2D6F159CA47D3 /* TeacherSessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherSessionDetailView.swift; sourceTree = "<group>"; };
+		C27279EBB009085550F37855 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C579D1A1F0859B5A81E04487 /* RoleSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectView.swift; sourceTree = "<group>"; };
+		C9F3BA5E2FA7798ABDA8A168 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		CBD1EF25DA3897E5382082C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D1E6FA5E0CCB4462BFF5FF7B /* sa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sa.mp3; sourceTree = "<group>"; };
+		D2D3F855114F95D5B3A87EE9 /* BadgeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeEngine.swift; sourceTree = "<group>"; };
+		D6668055BC598B5399B2FEDE /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
+		DCA0A352B39A288EDB5983CC /* ParentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViews.swift; sourceTree = "<group>"; };
+		E65D541D6B949C4B7FBE54CB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EE3493F817045BE88FB5F229 /* ClassStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStore.swift; sourceTree = "<group>"; };
+		EF8837B339F5C2208A88348D /* AppUpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateService.swift; sourceTree = "<group>"; };
+		F836E4AD0A80C08CEF941396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F90BB4BC45D01103309D0220 /* dha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dha.mp3; sourceTree = "<group>"; };
+		FAD42B867C0C5B0A4DD3C463 /* TeacherLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4569BB8ADD4AC180AE426D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F113DDEDB57BA9D06CBF9813 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C7CD5F3F2D7401DFD5D053A /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				371E82FC0D9AAFCAFBAC95CC /* StudentViews.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		1100B15F6B7640862E3829BE /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				88D9787CEAF5101B3BEA666A /* TeacherCalendarView.swift */,
+				A6EE49C1EF1CC8EBA8D668EF /* TeacherDashboardView.swift */,
+				00C6E05F8112C8605E65F593 /* TeacherOtherViews.swift */,
+				C10B67C2C0B2D6F159CA47D3 /* TeacherSessionDetailView.swift */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		2743FFC2B0AE79783839E7D4 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				2FCCC2BDD1C4806471FB41FD /* AuthStore.swift */,
+				EE3493F817045BE88FB5F229 /* ClassStore.swift */,
+				2877370BB165E46E8AED0A2A /* UIStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		3C6C087C054EDB936767A259 /* SaiGeetams */ = {
+			isa = PBXGroup;
+			children = (
+				6B7493C34678856E397E4AB6 /* Assets.xcassets */,
+				CBD1EF25DA3897E5382082C4 /* Info.plist */,
+				C27279EBB009085550F37855 /* PrivacyInfo.xcprivacy */,
+				908DB25E06A1A63A029507C6 /* SaiGeetams.entitlements */,
+				59D3D7975BA45729AB76540F /* App */,
+				C1231C61118C9448F7F243EB /* Config */,
+				FCEAA18B3A7C99E3C725C17E /* Models */,
+				FD93351C384F6DC981202175 /* Resources */,
+				C6AB6C403E0D4E45A73C8E02 /* Services */,
+				2743FFC2B0AE79783839E7D4 /* Stores */,
+				EE5CC1B2EEBB347790F4F5D9 /* Views */,
+			);
+			path = SaiGeetams;
+			sourceTree = "<group>";
+		};
+		420C3B42EF68A248D035A23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0DCD57DE7509A1B18A5473 /* SaiGeetams.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50262E73EDC8CA98E0855A7D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8297073E49428E058AE08BA4 /* OnboardingView.swift */,
+				0A4BD8D9685308EE4EE60DB8 /* OTPVerifyView.swift */,
+				19A157D2F634E84511D2D01A /* ParentLoginView.swift */,
+				C579D1A1F0859B5A81E04487 /* RoleSelectView.swift */,
+				1940C56DF4A74E5FF5035AA1 /* SplashView.swift */,
+				4AB0AB200884FE558BA19710 /* StudentLoginView.swift */,
+				73BFEC4D1836D9BADD8526A3 /* StudentRegisterView.swift */,
+				FAD42B867C0C5B0A4DD3C463 /* TeacherLoginView.swift */,
+				5BB5032E6DCAC998B1D8D045 /* TeacherRegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		59D3D7975BA45729AB76540F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F836E4AD0A80C08CEF941396 /* ContentView.swift */,
+				701883B71358EB9B8FC1D9F4 /* SaiGeetamsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7BF6A842632AF7D49D7217E5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F90BB4BC45D01103309D0220 /* dha.mp3 */,
+				09C084704EE0A25B7C07C534 /* ga.mp3 */,
+				3918FEB5EBE0F1CD20A7F2AB /* ma.mp3 */,
+				1D21CB790F19A0C972CF4E56 /* ni.mp3 */,
+				9AF65F4F5DCB60F5E384B6E0 /* pa.mp3 */,
+				45714545E7848304941CEF2A /* re.mp3 */,
+				D1E6FA5E0CCB4462BFF5FF7B /* sa.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		C1231C61118C9448F7F243EB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				22A1E5C7FBA4369F98F0E645 /* AppSettings.swift */,
+				4A2C6729FE44DD7E93393D87 /* SupabaseConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C6AB6C403E0D4E45A73C8E02 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF8837B339F5C2208A88348D /* AppUpdateService.swift */,
+				D2D3F855114F95D5B3A87EE9 /* BadgeEngine.swift */,
+				AB896A30C0A6F41436AC6C31 /* CalendarSyncService.swift */,
+				9B2D619C6570A16784CA97FD /* NotificationService.swift */,
+				48388498A069BBA22E0688C3 /* OfflineCacheService.swift */,
+				C9F3BA5E2FA7798ABDA8A168 /* SoundService.swift */,
+				70353F7FDFEF6B5CFCA0AD04 /* SupabaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CD5FA24F66234BBCB04D16E5 = {
+			isa = PBXGroup;
+			children = (
+				D6668055BC598B5399B2FEDE /* docs */,
+				A61D4BA811B88FFF8C8697F8 /* supabase */,
+				3C6C087C054EDB936767A259 /* SaiGeetams */,
+				420C3B42EF68A248D035A23B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8DC45ECFDA4AB7C3E713234 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				38A70564B0EE06E49F813F7D /* SharedComponents.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E372215766CF88BBA92B81AB /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0A352B39A288EDB5983CC /* ParentViews.swift */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		EE5CC1B2EEBB347790F4F5D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50262E73EDC8CA98E0855A7D /* Auth */,
+				E372215766CF88BBA92B81AB /* Parent */,
+				D8DC45ECFDA4AB7C3E713234 /* Shared */,
+				0C7CD5F3F2D7401DFD5D053A /* Student */,
+				1100B15F6B7640862E3829BE /* Teacher */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCEAA18B3A7C99E3C725C17E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E65D541D6B949C4B7FBE54CB /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD93351C384F6DC981202175 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BF6A842632AF7D49D7217E5 /* Audio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C9455105CAD884B87705F46 /* SaiGeetams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0E84D3E919B2BE8E06E78D /* Build configuration list for PBXNativeTarget "SaiGeetams" */;
+			buildPhases = (
+				312854A9EED410E7B0EF06D7 /* Sources */,
+				B1362F3D1AC6B739B05C9B41 /* Resources */,
+				D4569BB8ADD4AC180AE426D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaiGeetams;
+			packageProductDependencies = (
+				2A8C7C6277739C4557D3AA05 /* Supabase */,
+			);
+			productName = SaiGeetams;
+			productReference = 3F0DCD57DE7509A1B18A5473 /* SaiGeetams.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E2CF84818FEE3E99DEC807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9C9455105CAD884B87705F46 = {
+						DevelopmentTeam = 98B7W2B79V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6F4D03DA21C0FE5CF56D622 /* Build configuration list for PBXProject "SaiGeetams" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CD5FA24F66234BBCB04D16E5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4637C44973B6520C9B43BD45 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 420C3B42EF68A248D035A23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C9455105CAD884B87705F46 /* SaiGeetams */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1362F3D1AC6B739B05C9B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C5716B98B06451C552A38E /* Assets.xcassets in Resources */,
+				98E349F255BDE6116379D06D /* PrivacyInfo.xcprivacy in Resources */,
+				95B4EA39B42E6F89D53F2FF2 /* dha.mp3 in Resources */,
+				5146ABC25CE4D005F7A93971 /* ga.mp3 in Resources */,
+				6C2B35C5758AF3620FDF2D80 /* ma.mp3 in Resources */,
+				5CC2501E702C25C2B23C6832 /* ni.mp3 in Resources */,
+				E1DD7841C66948CF7C662BA6 /* pa.mp3 in Resources */,
+				2777A5356579E1A7C2D64AA4 /* re.mp3 in Resources */,
+				030AE6C3C07FFA6D46ABA17A /* sa.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312854A9EED410E7B0EF06D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE39469A4B5647307AEE8E9 /* AppSettings.swift in Sources */,
+				5858966AB2F9044C11590306 /* AppUpdateService.swift in Sources */,
+				072A2990A97D2B43FD159430 /* AuthStore.swift in Sources */,
+				0CA546E17D68FF26E72EBE99 /* BadgeEngine.swift in Sources */,
+				6F1E993D77142F7690A9DF5B /* CalendarSyncService.swift in Sources */,
+				842A52854290FDD0B02AACB5 /* ClassStore.swift in Sources */,
+				8EE5F9895EBE3CF5BEC9607A /* ContentView.swift in Sources */,
+				F14079753B027DC95EA40979 /* Models.swift in Sources */,
+				A6506CF39646CD85E06A7E99 /* NotificationService.swift in Sources */,
+				3251B942B28CAE0DF57A0874 /* OTPVerifyView.swift in Sources */,
+				B19098DC6FB1FADD2C0279D8 /* OfflineCacheService.swift in Sources */,
+				D2D2BB827B975F52EFB82017 /* OnboardingView.swift in Sources */,
+				B450622089D9A4BA41BDEDF4 /* ParentLoginView.swift in Sources */,
+				0FE9C4663E74D2ACD659991D /* ParentViews.swift in Sources */,
+				BCC6DC307EA0DEAD1BB78C77 /* RoleSelectView.swift in Sources */,
+				A833B894F449D06EA853AEC6 /* SaiGeetamsApp.swift in Sources */,
+				A0CFAE06EB7A6614ED729388 /* SharedComponents.swift in Sources */,
+				DD248A8B190AD976D4E7F4D9 /* SoundService.swift in Sources */,
+				06E116855802DC9C5BA9097D /* SplashView.swift in Sources */,
+				A48C16C178A60E337BEC84E8 /* StudentLoginView.swift in Sources */,
+				06EE996EB32508E5FF6F4D8C /* StudentRegisterView.swift in Sources */,
+				D0F13A67A282D2759BE5EDE3 /* StudentViews.swift in Sources */,
+				214F66AA554B740490DE2B0A /* SupabaseConfig.swift in Sources */,
+				ADC0BF92B04A05A510BD737E /* SupabaseService.swift in Sources */,
+				61A5517AC5FE9ABB6053C8CA /* TeacherCalendarView.swift in Sources */,
+				1A540FE5D58C3B2B1C235A99 /* TeacherDashboardView.swift in Sources */,
+				99BC245A12FE479ADC4FD55E /* TeacherLoginView.swift in Sources */,
+				FC7E34C07621734A509E99FD /* TeacherOtherViews.swift in Sources */,
+				40A32FE038EE6B4C25EFCA6E /* TeacherRegisterView.swift in Sources */,
+				6D81B627A67BD850A0461A3B /* TeacherSessionDetailView.swift in Sources */,
+				4C6AF93A5801034C17681F2E /* UIStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07DB13656E886F3DD89E0469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64633A4BAD2F70A20CE56509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7F1F261110921A08BE781D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SaiGeetams/SaiGeetams.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98B7W2B79V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaiGeetams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saigeetams.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		976DBFA1BBC7784D8BD9851B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SaiGeetams/SaiGeetams.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98B7W2B79V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaiGeetams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saigeetams.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F4D03DA21C0FE5CF56D622 /* Build configuration list for PBXProject "SaiGeetams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB13656E886F3DD89E0469 /* Debug */,
+				64633A4BAD2F70A20CE56509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC0E84D3E919B2BE8E06E78D /* Build configuration list for PBXNativeTarget "SaiGeetams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1F261110921A08BE781D3E /* Debug */,
+				976DBFA1BBC7784D8BD9851B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4637C44973B6520C9B43BD45 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A8C7C6277739C4557D3AA05 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4637C44973B6520C9B43BD45 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26E2CF84818FEE3E99DEC807 /* Project object */;
+}
